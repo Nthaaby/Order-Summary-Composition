@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap);
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);       
+}
+
+body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--pale-blue);
+    font-family: red hat display;
+}
+
+.hero-image {
+    width: 100%
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 450px;
+    background-color: white;
+    color: var(--desaturated-blue);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 100px auto;
+
+}
+.title {
+    color: var(--dark-blue);
+    font-weight: 900px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.container {
+    padding: 30px;
+    
+    
+}
+ 
+.container {
+    margin: 13px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+.order-description{
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    padding-bottom: 20px
+}
+
+.annual-description {
+    padding-bottom: 100px;
+}
+
+
+
+
+.plan-container {
+    font-size: 16px;
+    background-color: var(--very-pale-blue);
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.plan-description strong, {
+                         
+ line-height: 20px;
+ margin-right: 50px;
+
+} 
+
+.plan-container strong{
+color: var(--dark-blue);
+}
+
+
+.plan-container a {
+    color: var(--bright-blue);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+.plan-container a:hover {
+    opacity:  0.8;
+}
+
+button {
+    padding: 1rem 0;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    font-size: 0.9rem;
+    border-radius: 12px;
+}
+
+.proceed-button {
+    background-color: var(--bright-blue);
+    color: white;
+    box-shadow: 0.20px 30px -8px rgb(197, 189, 245);
+    
+
+
+}
+.cancel-button {
+    background-color: white;
+    padding: 1rem 0;
+    color: var(--desaturated-blue);
+    box-shadow: 0.20px 30px -8px rgb(197, 189, 245);
+    margin-top: 22px;
+}
+
+.cancel-button:hover {
+    color: black;
+}
+
+.proceed-button:hover {
+    opacity: 0.8;
+}
+.change {
+    text-decoration: none;
+}
+
+strong {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    line-height: 10px;
+}
